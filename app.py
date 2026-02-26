@@ -582,7 +582,7 @@ with st.sidebar:
         "model_path", value="best.pt",
         label_visibility="collapsed",
         placeholder="best.pt",
-        help="Path to YOLOv8 .pt weights",
+        help="Path to YOLO26s.pt weights",
     )
     uploaded_w = st.file_uploader("Upload .pt", type=["pt"], label_visibility="collapsed")
     if uploaded_w:
@@ -636,7 +636,7 @@ with st.sidebar:
 st.markdown("""
 <div class="hero-wrap">
     <div class="hero-leaf-bg">🍃</div>
-    <div class="hero-tag">🍎 Apple Orchard Intelligence</div>
+    <div class="hero-tag">🍎 Apple leaf Orchard Intelligence</div>
     <h1 class="hero-title">Apple Leaf<br><em>Disease Detection</em></h1>
     <p class="hero-sub">
         AI-powered plant pathology using YOLOv8. Detect Scab, Black Rot, 
