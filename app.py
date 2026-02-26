@@ -1,6 +1,6 @@
 """
 🍎 Apple Leaf Disease Detection System
-Full Streamlit app using YOLOv8 (best.pt) with live camera + image upload
+Full Streamlit app using YOLO26 (best.pt) with live camera + image upload
 Detects: Apple Scab, Black Rot, Cedar Apple Rust, Healthy leaves
 """
 
@@ -639,7 +639,7 @@ st.markdown("""
     <div class="hero-tag">🍎 Apple leaf Orchard Intelligence</div>
     <h1 class="hero-title">Apple Leaf<br><em>Disease Detection</em></h1>
     <p class="hero-sub">
-        AI-powered plant pathology using YOLOv8. Detect Scab, Black Rot, 
+        AI-powered plant pathology using YOLO26. Detect Scab, Black Rot, 
         Cedar Apple Rust and more — in real-time or from images.
     </p>
     <div class="hero-stats">
@@ -648,7 +648,7 @@ st.markdown("""
             <div class="hero-stat-label">Disease Classes</div>
         </div>
         <div>
-            <div class="hero-stat-val">YOLOv8</div>
+            <div class="hero-stat-val">YOLO26</div>
             <div class="hero-stat-label">Model Backbone</div>
         </div>
         <div>
@@ -929,7 +929,7 @@ with tab_upload:
                         <div>
                             <div style='font-weight:500;color:var(--text);margin-bottom:3px;'>2. Run Analysis</div>
                             <div style='font-size:0.82rem;color:var(--text2);'>
-                                YOLOv8 scans the image and localises disease regions.
+                                YOLO26 scans the image and localises disease regions.
                             </div>
                         </div>
                     </div>
